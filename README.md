@@ -17,3 +17,18 @@ bash PortScan.sh 192.168.1.1 1 10000
 ## C++ Code
 It is still in development, but you can see the [code](./PortScan.cpp).
 
+### Compiling
+```bash
+g++ PortScan.cpp -o PortScan
+```
+
+### Running
+```bash
+./PortScan <IP Address> <start port>-<end port>
+```
+
+#### Example
+```bash
+./PortScan 192.168.1.1 1-10000
+```
+
